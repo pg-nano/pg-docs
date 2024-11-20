@@ -1,0 +1,24 @@
+{
+  "name": "@pg-nano/pg-docs",
+  "author": "Alec Larson",
+  "type": "module",
+  "version": "0.0.0",
+  "license": "MIT",
+  "files": [
+    "data",
+    "dist"
+  ],
+  "prettier": "@alloc/prettier-config",
+  "devDependencies": {
+    "@alloc/prettier-config": "^1.0.0",
+    "@types/node": "^22.9.0",
+    "list-github-dir-content": "^4.0.4",
+    "prettier": "^3.3.3",
+    "radashi": "^12.2.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  }
+}
